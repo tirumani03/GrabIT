@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash3"
+   >
+     <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:id="@+id/register"
+         android:textColor="#FFFFFF"
+         android:textSize="16dp"
+         android:fontFamily="casual"
+         android:background="@drawable/buttonshape"
+         android:layout_above="@+id/skip1"
+         android:layout_toRightOf="@+id/skip1"
+         android:layout_marginBottom="30dp"
+         android:layout_toEndOf="@+id/skip1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skip"
+        android:id="@+id/skip1"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textIsSelectable="true"
+        android:textSize="17dp"
+
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:id="@+id/login"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/buttonshape"
+        android:layout_above="@+id/skip1"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:layout_toLeftOf="@+id/skip1"
+        android:layout_toStartOf="@+id/skip1" />
+
+</RelativeLayout>

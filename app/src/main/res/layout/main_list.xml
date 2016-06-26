@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:weightSum="1"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    android:background="@drawable/cardview"
+    >
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/imgIcon"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.2"
+        android:src="@drawable/no_image" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="0.7">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:text="Large Text"
+        android:layout_weight="0.205"
+        android:id="@+id/jobtitle"
+
+        />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="Company"
+        android:layout_weight="0.2"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:id="@+id/company"
+
+         />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="description"
+
+        android:layout_weight="0.435"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textColor="#000000"
+        android:id="@+id/description"
+        />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.16"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:textColor="#000000"
+                android:text="City"
+                android:layout_marginRight="15dp"
+                android:id="@+id/ecity"
+                />
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:textColor="#000000"
+        android:layout_weight="0.4"
+        android:text="Age"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/age"
+        />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/favourite"
+        android:layout_marginRight="8dp"
+        android:layout_weight="0.1"
+
+        android:src="@drawable/favunselected"
+        />
+
+</LinearLayout>

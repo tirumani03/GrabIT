@@ -1,0 +1,383 @@
+<resources>
+    <string name="app_name">GrabIt</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+   <string name="activityTransitionAnimWithFadeSpeed">800</string>
+    <string name="activityTransitionAnimSpeed">500</string>
+    <string name="item_image_contentDescription">Country flag</string>
+    <string name="item_preview_country">Israel</string>
+    <string name="item_preview_dialCode">+972</string>
+
+    <string-array name="days" >
+        <item><font COLOR="#0a8c87"><b>01</b></font></item><item>02</item><item>03</item><item>04</item>
+        <item>05</item><item>06</item><item>07</item><item>08</item>
+        <item>09</item><item>10</item><item>11</item><item>12</item>
+        <item>13</item><item>14</item><item>15</item><item>16</item>
+        <item>17</item><item>18</item><item>19</item><item>20</item>
+        <item>21</item><item>22</item><item>23</item><item>24</item>
+        <item>25</item><item>26</item><item>27</item><item>28</item><item>29</item>
+        <item>30</item><item>31</item>
+
+    </string-array>
+    <string-array name="months">
+        <item>01</item><item>02</item><item>03</item><item>04</item>
+        <item>05</item><item>06</item><item>07</item><item>08</item>
+        <item>09</item><item>10</item><item>11</item><item>12</item>
+
+    </string-array>
+    <string-array name="years">
+        <item>1945</item><item>1946</item><item>1947</item><item>1948</item>
+        <item>1949</item><item>1950</item><item>1951</item><item>1952</item>
+        <item>1953</item><item>1954</item><item>1955</item><item>1956</item>
+        <item>1957</item><item>1958</item><item>1959</item><item>1960</item>
+        <item>1961</item><item>1962</item><item>1963</item><item>1964</item>
+        <item>1965</item><item>1966</item><item>1967</item><item>1968</item>
+        <item>1969</item><item>1970</item><item>1971</item><item>1972</item>
+        <item>1973</item><item>1974</item><item>1975</item><item>1976</item>
+        <item>1977</item><item>1978</item><item>1979</item><item>1980</item>
+        <item>1981</item><item>1982</item><item>1983</item><item>1984</item>
+        <item>1985</item><item>1986</item><item>1987</item><item>1988</item>
+        <item>1989</item><item>1990</item><item>1991</item><item>1992</item>
+        <item>1993</item><item>1994</item><item>1995</item><item>1996</item>
+        <item>1997</item><item>1998</item><item>1999</item><item>2000</item>
+        <item>2001</item><item>2002</item><item>2003</item><item>2004</item>
+        <item>2005</item><item>2006</item><item>2007</item><item>2008</item>
+        <item>2009</item><item>2010</item><item>2011</item><item>2010</item>
+
+    </string-array>
+    <string-array name="CountryCodes" >
+        <item>Code</item>
+        <item>+93  AF</item>
+        <item>+355 AL</item>
+        <item>+213 DZ</item>
+        <item>+376 AD</item>
+        <item>+244 AO</item>
+        <item>+672 AQ</item>
+        <item>+54  AR</item>
+        <item>+374 AM</item>
+        <item>+297 AW</item>
+        <item>+61  AU</item>
+        <item>+43  AT</item>
+        <item>+994 AZ</item>
+        <item>+973 BH</item>
+        <item>+880 BD</item>
+        <item>+375 BY</item>
+        <item>+32  BE</item>
+        <item>+501 BZ</item>
+        <item>+229 BJ</item>
+        <item>+975 BT</item>
+        <item>+591 BO</item>
+        <item>+387 BA</item>
+        <item>+267 BW</item>
+        <item>+55  BR</item>
+        <item>+673 BN</item>
+        <item>+359 BG</item>
+        <item>+226 BF</item>
+        <item>+95  MM</item>
+        <item>+257 BI</item>
+        <item>+855 KH</item>
+        <item>+237 CM</item>
+        <item>+1   CA</item>
+        <item>+238 CV</item>
+        <item>+236 CF</item>
+        <item>+235 TD</item>
+        <item>+56  CL</item>
+        <item>+86  CN</item>
+        <item>+61  CX</item>
+        <item>+62  CC</item>
+        <item>+57  CO</item>
+        <item>+269 KM</item>
+        <item>+242 CG</item>
+        <item>+243 CD</item>
+        <item>+682 CK</item>
+        <item>+506 CR</item>
+        <item>+385 HR</item>
+        <item>+53  CU</item>
+        <item>+357 CY</item>
+        <item>+420 CZ</item>
+        <item>+45  DK</item>
+        <item>+253 DJ</item>
+        <item>+670 TL</item>
+        <item>+593 EC</item>
+        <item>+20  EG</item>
+        <item>+503 SV</item>
+        <item>+240 GQ</item>
+        <item>+291 ER</item>
+        <item>+372 EE</item>
+        <item>+251 ET</item>
+        <item>+500 FK</item>
+        <item>+298 FO</item>
+        <item>+679 FJ</item>
+        <item>+358 FI</item>
+        <item>+33  FR</item>
+        <item>+689 PF</item>
+        <item>+241 GA</item>
+        <item>+220 GM</item>
+        <item>+995 GE</item>
+        <item>+49  DE</item>
+        <item>+233 GH</item>
+        <item>+350 GI</item>
+        <item>+30  GR</item>
+        <item>+299 GL</item>
+        <item>+502 GT</item>
+        <item>+224 GN</item>
+        <item>+245 GW</item>
+        <item>+592 GY</item>
+        <item>+509 HT</item>
+        <item>+504 HN</item>
+        <item>+852 HK</item>
+        <item>+36  HU</item>
+        <item>+91  IN</item>
+        <item>+62  ID</item>
+        <item>+98  IR</item>
+        <item>+964 IQ</item>
+        <item>+353 IE</item>
+        <item>+44  IM</item>
+        <item>+972 IL</item>
+        <item>+39  IT</item>
+        <item>+225 CI</item>
+        <item>+81  JP</item>
+        <item>+962 JO</item>
+        <item>+7   KZ</item>
+        <item>+254 KE</item>
+        <item>+686 KI</item>
+        <item>+965 KW</item>
+        <item>+996 KG</item>
+        <item>+856 LA</item>
+        <item>+371 LV</item>
+        <item>+961 LB</item>
+        <item>+266 LS</item>
+        <item>+231 LR</item>
+        <item>+218 LY</item>
+        <item>+423 LI</item>
+        <item>+370 LT</item>
+        <item>+352 LU</item>
+        <item>+853 MO</item>
+        <item>+389 MK</item>
+        <item>+261 MG</item>
+        <item>+265 MW</item>
+        <item>+60  MY</item>
+        <item>+960 MV</item>
+        <item>+223 ML</item>
+        <item>+356 MT</item>
+        <item>+692 MH</item>
+        <item>+222 MR</item>
+        <item>+230 MU</item>
+        <item>+262 YT</item>
+        <item>+52  MX</item>
+        <item>+691 FM</item>
+        <item>+373 MD</item>
+        <item>+377 MC</item>
+        <item>+976 MN</item>
+        <item>+382 ME</item>
+        <item>+212 MA</item>
+        <item>+258 MZ</item>
+        <item>+264 NA</item>
+        <item>+674 NR</item>
+        <item>+977 NP</item>
+        <item>+31  NL</item>
+        <item>+599 AN</item>
+        <item>+687 NC</item>
+        <item>+64  NZ</item>
+        <item>+505 NI</item>
+        <item>+227 NE</item>
+        <item>+234 NG</item>
+        <item>+683 NU</item>
+        <item>+850 KP</item>
+        <item>+47  NO</item>
+        <item>+968 OM</item>
+        <item>+92  PK</item>
+        <item>+680 PW</item>
+        <item>+507 PA</item>
+        <item>+675 PG</item>
+        <item>+595 PY</item>
+        <item>+51  PE</item>
+        <item>+63  PH</item>
+        <item>+870 PN</item>
+        <item>+48  PL</item>
+        <item>+351 PT</item>
+        <item>+1   PR</item>
+        <item>+974 QA</item>
+        <item>+40  RO</item>
+        <item>+7   RU</item>
+        <item>+250 RW</item>
+        <item>+590 BL</item>
+        <item>+685 WS</item>
+        <item>+378 SM</item>
+        <item>+239 ST</item>
+        <item>+966 SA</item>
+        <item>+221 SN</item>
+        <item>+381 RS</item>
+        <item>+248 SC</item>
+        <item>+232 SL</item>
+        <item>+65  SG</item>
+        <item>+421 SK</item>
+        <item>+386 SI</item>
+        <item>+677 SB</item>
+        <item>+252 SO</item>
+        <item>+27  ZA</item>
+        <item>+82  KR</item>
+        <item>+34  ES</item>
+        <item>+94  LK</item>
+        <item>+290 SH</item>
+        <item>+508 PM</item>
+        <item>+249 SD</item>
+        <item>+597 SR</item>
+        <item>+268 SZ</item>
+        <item>+46  SE</item>
+        <item>+41  CH</item>
+        <item>+963 SY</item>
+        <item>+886 TW</item>
+        <item>+992 TJ</item>
+        <item>+255 TZ</item>
+        <item>+66  TH</item>
+        <item>+228 TG</item>
+        <item>+690 TK</item>
+        <item>+676 TO</item>
+        <item>+216 TN</item>
+        <item>+90  TR</item>
+        <item>+993 TM</item>
+        <item>+688 TV</item>
+        <item>+971 AE</item>
+        <item>+256 UG</item>
+        <item>+44  GB</item>
+        <item>+380 UA</item>
+        <item>+598 UY</item>
+        <item>+1   US</item>
+        <item>+998 UZ</item>
+        <item>+678 VU</item>
+        <item>+39  VA</item>
+        <item>+58  VE</item>
+        <item>+84  VN</item>
+        <item>+681 WF</item>
+        <item>+967 YE</item>
+        <item>+260 ZM</item>
+        <item>+263 ZW</item>
+    </string-array>
+    <string-array name="EducationArray">
+        <item>Select Education</item>
+        <item>10th </item>
+        <item>12th </item>
+        <item>Normal Degree </item>
+        <item>Engineering </item>
+        <item>Post Graduate</item>
+        <item>PhD </item>
+    </string-array>
+    <string-array name="InterestArray">
+        <item>Select Interest</item>
+        <item>Software Development</item>
+        <item>Software Design </item>
+        <item>Programming Languages </item>
+        <item>Marketing </item>
+        <item>Representative</item>
+        <item>Medical Sciences </item>
+    </string-array>
+    <string-array name="tabs">
+        <item>Home</item>
+        <item>Saved</item>
+        <item>Settings</item>
+        <item>Profile</item>
+    </string-array>
+    <string-array name="settingsArray">
+        <item>Filters</item>
+        <item>Change Location</item>
+        <item>Switch Account</item>
+        <item>Report a Problem</item>
+        <item>Help</item>
+        <item>Privacy Terms</item>
+    </string-array>
+    <string-array name="countries_array">
+        <item>Argentina</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Bahrain</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Korea</item>
+        <item>Kuwait</item>
+        <item>Luxembourg</item>
+        <item>Malaysia</item>
+        <item>Mexico</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Saudi Arabia</item>
+        <item>Singapore</item>
+        <item>South Africa</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Taiwan</item>
+        <item>Turkey</item>
+        <item>UAE</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Venezuela</item>
+
+    </string-array>
+    <string-array name="JobTypesArray">
+        <item>fulltime</item>
+        <item>parttime</item>
+        <item>contract</item>
+        <item>internship</item>
+        <item>temporary</item>
+    </string-array>
+    <string-array name="RadiusArray">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="SortByArray">
+        <item>relevance</item>
+        <item>date</item>
+    </string-array>
+    <string-array name="fromAgeArray">
+        <item>1 day ago</item>
+        <item>2 days ago</item>
+        <item>3 days ago</item><item>4 days ago</item>
+        <item>5 days ago</item>
+        <item>6 days ago</item>
+        <item>1 week ago</item>
+        <item>2 weeks ago</item>
+        <item>15 days ago</item>
+        <item>30+ days ago</item>
+
+    </string-array>
+
+</resources>

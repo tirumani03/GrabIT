@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.v4.widget.Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Username :"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Username"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:id="@+id/user"
+        android:background="@drawable/edittextstyle"
+       />
+    <android.support.v4.widget.Space
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            android:text="  Password :" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:inputType="textWebPassword"
+            android:fontFamily="casual"
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/pass"/>
+    <android.support.v4.widget.Space
+        android:layout_width="fill_parent"
+        android:layout_height="15dp" />
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Remember me"
+    android:textColor="@color/colorPrimary"
+    android:layout_marginLeft="15dp"
+    android:textSize="18dp"
+    android:id="@+id/remember"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/colorPrimary"
+        android:contextClickable="true"
+        android:textSize="18dp"
+        android:id="@+id/forgotpassword"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+      <Button
+          android:layout_width="150dp"
+          android:layout_height="50dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="15dp"
+          android:text="Login"
+          android:layout_weight="0.5"
+          android:textColor="#FFFFFF"
+          android:textSize="16dp"
+          android:fontFamily="casual"
+          android:layout_gravity="center_horizontal"
+          android:background="@drawable/buttonshape"
+          android:id="@+id/finallogin"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:text="Sign Up"
+            android:layout_weight="0.5"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:fontFamily="casual"
+            android:id="@+id/signup2"/>
+
+    </LinearLayout>
+    <android.support.v4.widget.Space
+        android:layout_width="fill_parent"
+        android:layout_height="15dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/access"
+    android:textSize="18dp"/>
+    <android.support.v4.widget.Space
+        android:layout_width="fill_parent"
+        android:layout_height="120dp" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:text="skip"
+         android:contextClickable="true"
+         android:id="@+id/skip2"
+         android:textColor="@color/colorPrimary"
+         android:textSize="18dp"/>
+
+</LinearLayout>
